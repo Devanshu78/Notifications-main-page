@@ -214,8 +214,7 @@
     }
     
     .notificationBox {
-        border: 2px solid red;
-        height: 78vh;
+        height: 80vh;
         width: 350px;
     }
     
@@ -223,7 +222,6 @@
     /* Header section start */
     
     .header {
-        border: 1px solid;
         width: 100%;
         margin:0px;
         padding: 5px 5px;
