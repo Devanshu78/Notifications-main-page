@@ -6,5 +6,6 @@ markAsDone.addEventListener('click' , function(){
     unreadMessageNumber.classList.add('hidden');
     unreadMessage.forEach((unreadMessage) =>{
         unreadMessage.classList.add('messageRead');
+        markAsDone.classList.add('headerRightSection');
     });
 })
