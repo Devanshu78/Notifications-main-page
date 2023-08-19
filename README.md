@@ -2,7 +2,7 @@
 
 ![Design preview for the Notifications page coding challenge](./assets/images/Screenshot.png)
 
-## Welcome! 👋
+## Welcome! 👋 
 
 Thanks for checking out this front-end coding challenge.
 
