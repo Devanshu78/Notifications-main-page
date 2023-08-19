@@ -1,0 +1,297 @@
+/* 
+    background-color: hsl(0, 0%, 100%) ;
+    background-color: hsl(210, 60%, 98%);
+    background-color: hsl(211, 68%, 94%);
+    background-color:  hsl(205, 33%, 90%);
+    background-color: hsl(219, 14%, 63%);
+    background-color: hsl(219, 12%, 42%);
+*/
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main {
+    height: 99vh;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notificationBox {
+    height: 650px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 15px whitesmoke;
+    position: relative;
+    padding: 20px;
+}
+
+
+/* Header section start */
+
+.header {
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLeftSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.firstHeading {
+    color: hsl(224, 21%, 14%);
+}
+
+.unreadMessageNumber {
+    width: 30px;
+    height: 27px;
+    border: 1px solid hsl(228, 45%, 44%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: hsl(228, 45%, 44%);
+    font-size: 20px;
+}
+
+.headerRightSection {
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+.toggelMessageStatus:hover {
+    cursor: pointer;
+    font-weight: 600;
+    color: hsl(228, 45%, 44%);
+}
+
+/* Header section end */
+
+/* user notification messages */
+
+.userNotification {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.userNotification img {
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 50px;
+}
+
+.notificationMessage {
+    height: 50px;
+    /* outline: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+    font-size: 15px;
+    color: hsl(219, 12%, 42%);
+}
+
+.userName {
+    color: hsl(224, 21%, 14%);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.userName:hover {
+    color: hsl(228, 73%, 26%);
+    cursor: pointer;
+}
+
+.userPost {
+    font-weight: bold;
+    color: hsl(219, 12%, 42%);
+}
+
+.userPost:hover {
+    color: hsl(228, 73%, 26%);
+    cursor: pointer;
+}
+
+
+.postTiming {
+    font-size: 12px;
+    color: hsl(219, 14%, 63%);
+}
+
+/* ************************************* */
+
+.Rizky {
+    height: 150px;
+    align-items: flex-start;
+}
+
+.personalMessage {
+    font-size: 15px;
+    color: hsl(218, 10%, 45%);
+    padding: 15px;
+    border-radius: 5px;
+    outline: 1px solid hsl(211, 68%, 94%);
+    height: 60px;
+    width: 485px;
+}
+.personalMessage:hover {
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+}
+
+.messageBg {
+    background-color: hsl(210, 60%, 98%);
+    border: 1px solid hsl(210, 60%, 98%);
+}
+
+.chess {
+    position: relative;
+    left: 100px;
+}
+
+.chess:hover {
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.messageRead{
+    background-color: white;
+    border: white;
+}
+
+
+
+
+/* footer Section */
+.attribution {
+    font-size: 12px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+
+
+/******************************************************/
+
+
+
+@media (max-width : 425px){
+
+    .main{
+        height: 91vh;
+        background-image:none;
+        margin: 0px;
+        padding: 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .notificationBox {
+        border: 2px solid red;
+        height: 78vh;
+        width: 350px;
+    }
+    
+    
+    /* Header section start */
+    
+    .header {
+        border: 1px solid;
+        width: 100%;
+        margin:0px;
+        padding: 5px 5px;
+    }
+    
+    
+    .unreadMessageNumber {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        font-weight: 100;
+        font-size: 12px;
+    }
+    
+    /* Header section end */
+    
+    /* user notification messages */
+    
+    .userNotification {
+        height: 70px;
+        width: 300px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    }
+    
+    .userNotification img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .notificationMessage {
+        height: 50px;
+        width: 270px;
+        font-size: 13px;
+    }
+    
+    /* ************************************* */
+    
+    .Rizky {
+        height: 145px;
+    }
+    
+    .personalMessage {
+        font-size: 13px;
+        padding: 8px;
+        height: 70px;
+        width: 245px;
+    }
+    .Kimberly{
+        width: 210px;
+    }
+    .chess {
+        position: relative;
+        left: 0px;
+    }
+    
+    
+    /******************************************************/
+    
+    
+    /* footer Section */
+    .attribution {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+        text-decoration: none;
+    }
+}
